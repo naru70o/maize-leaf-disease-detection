@@ -3,24 +3,23 @@ function Hero() {
     <div className="bg-[linear-gradient(to_bottom,#228B22,#6B8E23)] py-6 overflow-clip text-white">
       <div className="container mx-auto relative">
         {/* navigation */}
-        <div className="flex justify-between items-center w-full">
+        <div className="flex justify-between items-center w-full px-8">
           <div className="relative">
-            {/* <h1 className="text-2xl text-white">Detector</h1> */}
             <img
               alt="logo website"
               src="./logo.png"
-              className="w-[50px] h-[50px]"
+              className="w-auto h-[50px]"
             />
           </div>
-          <ul className="sm:flex items-center gap-8 font-medium transition-all duration-200 cursor-pointer hidden">
+          <ul className="flex items-center gap-4 sm:gap-4 font-medium transition-all duration-200 cursor-pointer">
             <li className="hover:text-white/70">Home</li>
             <li className="hover:text-white/70">About</li>
             <li className="hover:text-white/70">Download</li>
-            <li className="bg-[#6B8E23] rounded-sm px-2 py-1 hover:text-white/70 transition-all duration-150">
+            <li className="bg-[#6B8E23] rounded-sm px-2 py-1 hover:text-white/70 transition-all duration-150 hidden sm:inline">
               Detect
             </li>
           </ul>
-          <div className="sm:hidden pr-3">
+          <div className="hidden pr-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="32px"
