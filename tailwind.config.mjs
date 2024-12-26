@@ -7,6 +7,10 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "about-gradient-large": "linear-gradient(url('/maize-large.jpeg')",
+        "about-gradient-small": "linear-gradient(url('/maize-small.jpeg')",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.image {
+  background-image: url("/maize-small.jpeg"); /* Default for mobile */
+}
+@media (min-width: 600) {
+  .image {
+    background-image: url("/maize-small.jpeg"); /* Default for mobile */
+  }
+}

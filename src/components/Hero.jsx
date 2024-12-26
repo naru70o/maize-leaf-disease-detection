@@ -40,10 +40,10 @@ function Hero() {
           </h1>
           {/* button */}
           <div className="flex justify-center gap-4">
-            <button className="bg-[#6B8E23] font-medium hover:text-white/70 px-4 py-2 rounded-sm mt-8 transition-all">
+            <button className="bg-[#6B8E23] font-medium hover:text-white/70 px-4 py-2 rounded-sm mt-8 transition-all shadow-lg ">
               Detect
             </button>
-            <button className="bg-[#6B8E23] font-medium hover:text-white/70 px-4 py-2 rounded-sm mt-8 transition-all">
+            <button className="bg-[#6B8E23] font-medium hover:text-white/70 px-4 py-2 rounded-sm mt-8 transition-all shadow-xl">
               Download
             </button>
           </div>
@@ -56,7 +56,7 @@ function Hero() {
             <img
               alt="heo image"
               src="./laptop.png"
-              className="w-fit h-[324px] hidden sm:flex translate-y-12"
+              className="w-fit h-[324px] hidden sm:flex"
             />
           </div>
         </div>
