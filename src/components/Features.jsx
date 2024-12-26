@@ -20,7 +20,7 @@ const AllFeatures = [
 
 function Features() {
   return (
-    <div className="bg-[linear-gradient(to_bottom,#228B22,#6B8E23)] py-[72px] overflow-clip text-white">
+    <div className="bg-[linear-gradient(to_bottom,#228B22,#6B8E23)] py-[72px] overflow-clip text-white px-8">
       <div className="container mx-auto">
         <h1 className="text-2xl text-center px-4 font-bold sm:text-3xl lg:text-5xl sm:max-w-[80%] mx-auto">
           Our Features
