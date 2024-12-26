@@ -19,7 +19,7 @@ const AllFeatures = [
 function Feature() {
   return AllFeatures.map((feature) => {
     return (
-      <div className="bg-[#90EE90] text-[#228b22] flex flex-col justify-center items-center p-10 w-[400px] mx-auto shadow-sm">
+      <div className="bg-[#90EE90] text-[#228b22] flex flex-col justify-center items-center p-10 mx-auto shadow-sm">
         {feature.availiable ? (
           <svg
             xmlns="http://www.w3.org/2000/svg"
