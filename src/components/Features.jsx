@@ -20,12 +20,12 @@ const AllFeatures = [
 
 function Features() {
   return (
-    <div className="bg-[linear-gradient(to_bottom,#228B22,#6B8E23)] py-[72px] overflow-clip text-white px-8">
+    <div className="bg-[linear-gradient(to_bottom,#228B22,#6B8E23)] py-[72px] text-white px-8">
       <div className="container mx-auto">
-        <h1 className="text-2xl text-center px-4 font-bold sm:text-3xl lg:text-5xl sm:max-w-[80%] mx-auto">
+        <h1 className="text-center font-bold text-5xl sm:max-w-[648px] mx-auto sm:text-6xl tracking-tighter">
           Our Features
         </h1>
-        <div className="flex flex-col gap-16 lg:flex-row mt-16">
+        <div className="flex flex-col gap-8 lg:gap-16 sm:flex-row mt-16">
           <Feature />
         </div>
       </div>

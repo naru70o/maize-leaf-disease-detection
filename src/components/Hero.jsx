@@ -8,14 +8,14 @@ function Hero() {
             <img
               alt="logo website"
               src="./logo.png"
-              className="w-auto h-[50px]"
+              className="w-auto h-[50px] -translate-x-2"
             />
           </div>
           <ul className="flex items-center gap-4 sm:gap-4 font-medium transition-all duration-200 cursor-pointer">
             <li className="hover:text-white/70">Home</li>
             <li className="hover:text-white/70">About</li>
-            <li className="hover:text-white/70">Download</li>
-            <li className="bg-[#6B8E23] rounded-sm px-2 py-1 hover:text-white/70 transition-all duration-150 hidden sm:inline">
+            <li className="hover:text-white/70">Faqs</li>
+            <li className="text-[#6B8E23] bg-[#D9D9D9] rounded-sm px-2 py-1 hover:text-[#6B8E23]/70 transition-all duration-150 hidden sm:inline">
               Detect
             </li>
           </ul>
@@ -33,29 +33,28 @@ function Hero() {
         </div>
         <div className="flex flex-col pt-[72px] mx-auto">
           {/* hedaer */}
-          <h1 className="text-2xl text-center px-4 font-bold sm:text-3xl lg:text-5xl sm:max-w-[80%] mx-auto">
-            Ka Faa'iidayso Tiknoolajiyadda si Aad Uga Hortagto Cudurrada
-            Dalagyadaada
+          <h1 className="text-3xl font-bold sm:text-5xl self-center text-center max-w-[535px] inline-flex tracking-tight">
+            Leverage Technology to Prevent Diseases in Your Crops
           </h1>
           {/* button */}
-          <div className="flex justify-center gap-4 text-[#6b8e23]">
+          <div className="flex justify-center gap-4 mt-4 text-[#6b8e23]">
             <button className="bg-[#D9D9D9] min-w-28 font-medium hover:-translate-y-1 px-4 py-2 rounded-sm duration-200 mt-8 transition-all shadow-lg ">
               Detect
             </button>
-            <button className="bg-[#D9D9D9] min-w-28 font-medium hover:-translate-y-1 px-4 py-2 rounded-sm mt-8 duration-200 transition-all shadow-xl">
+            <button className="bg-[#D9D9D9] min-w-28 font-medium hover:-translate-y-1 px-4 py-2 rounded-sm duration-200 mt-8 transition-all shadow-lg">
               Download
             </button>
           </div>
-          <div className="flex justify-center mt-8">
+          <div className="flex justify-center ">
             <img
               alt="heo image"
               src="./mobile.png"
-              className="w-fit h-[324px] sm:hidden"
+              className="w-fit h-[324px] mt-16 sm:hidden "
             />
             <img
               alt="heo image"
               src="./laptop.png"
-              className="w-fit h-[324px] hidden sm:flex"
+              className="w-fit h-[324px] mt-16 hidden sm:flex"
             />
           </div>
         </div>

@@ -1,11 +1,8 @@
 "use client";
 
-import clsx from "clsx";
-import React, { useState } from "react";
-import PlusIcon from "../source/plus.svg";
-import MinusIcon from "../source/minus.svg";
+import React from "react";
 
-import { motion, AnimatePresence } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 
 const items = [
   {
@@ -90,7 +87,7 @@ const AccordiaItem = ({ question, answer }) => {
 
 export const FAQs = () => {
   return (
-    <div className="bg-[linear-gradient(to_bottom,#6B8E23,#228B22)] overflow-clip text-white py-[72px]">
+    <div className="bg-[linear-gradient(to_bottom,#6B8E23,#228B22)] overflow-clip text-white px-8 py-[72px]">
       <div className="container mx-auto">
         <h2 className="text-center font-bold text-5xl sm:max-w-[648px] mx-auto sm:text-6xl tracking-tighter">
           Frequently asked questions
