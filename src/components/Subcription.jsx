@@ -1,12 +1,8 @@
 "use client";
 
-import { useRef } from "react";
-
 export const Subcription = () => {
-  const containerRef = useRef(null);
-
   return (
-    <div className="bg-[linear-gradient(to_bottom,#228B22,#6B8E23)] py-[72px] text-white px-8">
+    <div className="bg-[linear-gradient(to_bottom,#228B22,#6B8E23)]  py-[72px] text-white px-8">
       <div className="container mx-auto max-w-xl relative">
         <h2 className="text-center font-bold text-5xl sm:max-w-[648px] mx-auto sm:text-6xl tracking-tighter">
           Subscribe to Stay Updated
@@ -21,7 +17,7 @@ export const Subcription = () => {
             className="h-12 bg-white/20 rounded-lg px-5 font-medium placeholder:text-white/70 active:outline-none"
             placeholder="your@email.com"
           />
-          <button className="h-12 bg-white text-[#6B8E23] font-medium px-5 rounded-lg">
+          <button className="h-12 bg-white text-[#6B8E23] font-medium px-5 rounded-lg hover:text-[#6B8E23]/70 transition-all duration-150">
             Subscribe
           </button>
         </form>

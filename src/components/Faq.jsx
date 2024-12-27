@@ -6,24 +6,24 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const items = [
   {
-    question: "What payment methods do you accept?",
+    question: "Is it easy to use for beginners?",
     answer:
-      "We accept all major credit cards, PayPal, and various other payment methods depending on your location. Please contact our support team for more information on accepted payment methods in your region.",
+      "Yes, our system is designed to be user-friendly, often involving simple steps like uploading an image and waiting for results.",
   },
   {
-    question: "How does the pricing work for teams?",
+    question: "How long does it take to detect a disease?",
     answer:
-      "Our pricing is per user, per month. This means you only pay for the number of team members you have on your account. Discounts are available for larger teams and annual subscriptions.",
+      "Detection is usually instant or takes just a few seconds after the image is uploaded.",
   },
   {
-    question: "Can I change my plan later?",
+    question: "What does the system do after detecting a disease?",
     answer:
-      "Yes, you can upgrade or downgrade your plan at any time. Changes to your plan will be prorated and reflected in your next billing cycle.",
+      "We trained our system to recommend the user to reach out to specialists if the plant isn’t healthy but if the plant is healthy it will just display healthy",
   },
   {
-    question: "Is my data secure?",
+    question: "Can it detect diseases in all plants?",
     answer:
-      "Security is our top priority. We use state-of-the-art encryption and comply with the best industry practices to ensure that your data is stored securely and accessed only by authorized users.",
+      "The detector’s capabilities doesn’t detect much that much as it is just MVP but it is our goal to detect all disease plant in all plants.",
   },
 ];
 
