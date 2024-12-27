@@ -2,7 +2,10 @@
 
 export const Subcription = () => {
   return (
-    <div className="bg-[linear-gradient(to_bottom,#228B22,#6B8E23)]  py-[72px] text-white px-8">
+    <div
+      className="bg-[linear-gradient(to_bottom,#228B22,#6B8E23)]  py-[72px] text-white px-8"
+      id="footer"
+    >
       <div className="container mx-auto max-w-xl relative">
         <h2 className="text-center font-bold text-5xl sm:max-w-[648px] mx-auto sm:text-6xl tracking-tighter">
           Subscribe to Stay Updated

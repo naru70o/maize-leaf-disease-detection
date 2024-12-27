@@ -1,6 +1,9 @@
 function About() {
   return (
-    <div className="bg-[linear-gradient(to_bottom,#6B8E23,#228B22)] py-[72px] px-8 text-white">
+    <div
+      className="bg-[linear-gradient(to_bottom,#6B8E23,#228B22)] py-[72px] px-8 text-white"
+      id="about"
+    >
       <div className="container mx-auto ">
         <div className="flex flex-col">
           <h1 className="text-center font-bold text-5xl sm:max-w-[648px] mx-auto sm:text-6xl tracking-tighter">

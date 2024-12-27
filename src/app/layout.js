@@ -14,7 +14,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="overscroll-none">
+    <html lang="en" className="overscroll-none scroll-smooth">
       <body className={`overscroll-none ${lato.variable} antialiased`}>
         {children}
       </body>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function Hero() {
   return (
     <div className="bg-[linear-gradient(to_bottom,#228B22,#6B8E23)] py-6 overflow-clip text-white">
@@ -11,12 +13,21 @@ function Hero() {
               className="w-auto h-[50px] -translate-x-2"
             />
           </div>
-          <ul className="flex items-center gap-4 sm:gap-4 font-medium transition-all duration-200 cursor-pointer">
-            <li className="hover:text-white/70">Home</li>
-            <li className="hover:text-white/70">About</li>
-            <li className="hover:text-white/70">Faqs</li>
+          <ul className="flex items-center gap-3 sm:gap-4 font-medium transition-all duration-200 cursor-pointer">
+            <li className="hover:text-white/70">
+              <Link href="#">Home</Link>
+            </li>
+            <li className="hover:text-white/70">
+              <Link href="#about">About</Link>
+            </li>
+            <li className="hover:text-white/70">
+              <Link href="#faq">Faqs</Link>
+            </li>
+            <li className="hover:text-white/70">
+              <Link href="#footer">Footer</Link>
+            </li>
             <li className="text-[#6B8E23] bg-[#D9D9D9] rounded-sm px-2 py-1 hover:text-[#6B8E23]/70 transition-all duration-150 hidden sm:inline">
-              Detect
+              <Link href="#">Detect</Link>
             </li>
           </ul>
           <div className="hidden pr-3">

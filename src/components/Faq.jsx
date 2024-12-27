@@ -32,6 +32,7 @@ const AccordiaItem = ({ question, answer }) => {
   return (
     <div
       className="py-7 border-b border-white/30"
+      id="faq"
       key={question}
       onClick={() => setIsOpen(!isOpen)}
     >
