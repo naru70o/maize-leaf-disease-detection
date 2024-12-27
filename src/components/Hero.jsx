@@ -38,11 +38,11 @@ function Hero() {
             Dalagyadaada
           </h1>
           {/* button */}
-          <div className="flex justify-center gap-4">
-            <button className="bg-[#6B8E23] font-medium hover:text-white/70 px-4 py-2 rounded-sm mt-8 transition-all shadow-lg ">
+          <div className="flex justify-center gap-4 text-[#6b8e23]">
+            <button className="bg-[#D9D9D9] min-w-28 font-medium hover:-translate-y-1 px-4 py-2 rounded-sm duration-200 mt-8 transition-all shadow-lg ">
               Detect
             </button>
-            <button className="bg-[#6B8E23] font-medium hover:text-white/70 px-4 py-2 rounded-sm mt-8 transition-all shadow-xl">
+            <button className="bg-[#D9D9D9] min-w-28 font-medium hover:-translate-y-1 px-4 py-2 rounded-sm mt-8 duration-200 transition-all shadow-xl">
               Download
             </button>
           </div>
