@@ -5,7 +5,7 @@ function Hero() {
     <div className="bg-[linear-gradient(to_bottom,#030e03,#228B22,#6B8E23)] py-6 overflow-clip text-white">
       <div className="relative">
         {/* navigation */}
-        <div className=" bg-black flex justify-between items-center w-full px-8">
+        <div className=" flex justify-between items-center w-full sm:px-8  px-4">
           <div className="relative">
             <img
               alt="logo website"
