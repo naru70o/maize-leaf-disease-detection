@@ -27,7 +27,12 @@ function Hero() {
               <Link href="#footer">Footer</Link>
             </li>
             <li className="text-[#6B8E23] bg-[#D9D9D9] rounded-sm px-2 py-1 hover:text-[#6B8E23]/70 transition-all duration-150 hidden sm:inline">
-              <Link href="#">Detect</Link>
+              <Link
+                target="_blank"
+                href="https://disease-diagnostic-project-nmjbygl58dg9cu6gfyeofh.streamlit.app"
+              >
+                Detect
+              </Link>
             </li>
           </ul>
           <div className="hidden pr-3">
@@ -50,7 +55,12 @@ function Hero() {
           {/* button */}
           <div className="flex justify-center gap-4 mt-4 text-[#6b8e23]">
             <button className="bg-[#D9D9D9] min-w-28 font-medium hover:-translate-y-1 px-4 py-2 rounded-sm duration-200 mt-8 transition-all shadow-lg flex">
-              Detect
+              <Link
+                target="_blank"
+                href="https://disease-diagnostic-project-nmjbygl58dg9cu6gfyeofh.streamlit.app"
+              >
+                Detect
+              </Link>
               <span className="relative flex h-3 w-3 top-[7.5px] -right-4">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
@@ -62,7 +72,7 @@ function Hero() {
             >
               Download
               <span className="bg-[#FFD700] text-black/70 text-[10px] px-4 absolute rotate-45 -translate-x-6 -translate-y-1">
-                Feture
+                Future
               </span>
             </button>
           </div>
