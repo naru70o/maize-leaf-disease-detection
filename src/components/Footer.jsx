@@ -4,7 +4,7 @@ import { Xsocial } from "@/source/icons/Icon";
 
 function Footer() {
   return (
-    <footer className="bg-[#90EE90] text-black/60 py-5 border-t border-white/20">
+    <footer className="bg-black text-white/60 py-5 border-t border-white/20">
       <div className="container mx-auto">
         <div className="flex flex-col gap-4 sm:flex-row sm:justify-between">
           <div className="text-center">

@@ -3,7 +3,7 @@
 export const Subcription = () => {
   return (
     <div
-      className="bg-[linear-gradient(to_bottom,#228B22,#6B8E23)]  py-[72px] text-white px-8"
+      className="bg-[linear-gradient(to_bottom,#228B22,#114611,#030e03)]  py-[72px] text-white px-8"
       id="footer"
     >
       <div className="container mx-auto max-w-xl relative">

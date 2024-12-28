@@ -2,10 +2,10 @@ import Link from "next/link";
 
 function Hero() {
   return (
-    <div className="bg-[linear-gradient(to_bottom,#228B22,#6B8E23)] py-6 overflow-clip text-white">
-      <div className="container mx-auto relative">
+    <div className="bg-[linear-gradient(to_bottom,#030e03,#228B22,#6B8E23)] py-6 overflow-clip text-white">
+      <div className="relative">
         {/* navigation */}
-        <div className="flex justify-between items-center w-full px-8">
+        <div className=" bg-black flex justify-between items-center w-full px-8">
           <div className="relative">
             <img
               alt="logo website"
@@ -26,12 +26,12 @@ function Hero() {
             <li className="hover:text-white/70">
               <Link href="#footer">Footer</Link>
             </li>
-            <li className="text-[#6B8E23] bg-[#D9D9D9] rounded-sm px-2 py-1 hover:text-[#6B8E23]/70 transition-all duration-150 hidden sm:inline">
+            <li className="text-[#6B8E23] bg-[#D9D9D9] rounded-md px-2 py-1 hover:text-[#6B8E23]/70 transition-all duration-150 hidden sm:inline">
               <Link
                 target="_blank"
                 href="https://disease-diagnostic-project-nmjbygl58dg9cu6gfyeofh.streamlit.app"
               >
-                Detect
+                Get started
               </Link>
             </li>
           </ul>
@@ -54,20 +54,20 @@ function Hero() {
           </h1>
           {/* button */}
           <div className="flex justify-center gap-4 mt-4 text-[#6b8e23]">
-            <button className="bg-[#D9D9D9] min-w-28 font-medium hover:-translate-y-1 px-4 py-2 rounded-sm duration-200 mt-8 transition-all shadow-lg flex">
+            <button className=" text-[#D9D9D9] bg-black min-w-28 font-medium hover:-translate-y-1 px-4 py-2 rounded-md duration-200 mt-8 transition-all shadow-lg flex">
               <Link
                 target="_blank"
                 href="https://disease-diagnostic-project-nmjbygl58dg9cu6gfyeofh.streamlit.app"
               >
-                Detect
+                Get started
               </Link>
-              <span className="relative flex h-3 w-3 top-[7.5px] -right-4">
+              <span className="relative flex h-3 w-3 top-[7.5px] -right-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
               </span>
             </button>
             <button
-              className="bg-[#D9D9D9] min-w-28 font-medium px-4 py-2 rounded-sm duration-200 mt-8 transition-all overflow-clip shadow-lg relative opacity-50"
+              className=" text-[#D9D9D9] bg-black min-w-28 font-medium px-4 py-2 rounded-md duration-200 mt-8 transition-all overflow-clip shadow-lg relative opacity-50"
               disabled={true}
             >
               Download
