@@ -24,7 +24,7 @@ function Hero() {
               <Link href="#faq">Faqs</Link>
             </li>
             <li className="hover:text-white/70">
-              <Link href="#subscripe">Subscripe</Link>
+              <Link href="#subscripe">Subscribe</Link>
             </li>
             <li className="text-[#6B8E23] bg-[#D9D9D9] rounded-md px-2 py-1 hover:text-[#6B8E23]/70 transition-all duration-150 hidden sm:inline">
               <Link
