@@ -1,17 +1,17 @@
 const AllFeatures = [
   {
     feature:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aspernatur enim animi doloremque laboriosam",
+      "Our system is equipped to detect four maize diseases with high accuracy, empowering farmers to take timely action to protect their crops",
     availiable: true,
   },
   {
     feature:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aspernatur enim animi doloremque labo",
+      "We are expanding! Soon, our system will support the detection of diseases in additional crops, ensuring broader agricultural coverage.",
     availiable: false,
   },
   {
     feature:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aspernatur enim animi doloremque laboriosam molestias earum ad voluptate non",
+      "Plus, our mobile app is in development and will be launched soon, offering on-the-go access to these powerful features",
     availiable: false,
   },
 ];
